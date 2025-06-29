@@ -1,54 +1,49 @@
-Biometric-App
-A Flutter-based mobile application demonstrating secure biometric authentication (fingerprint or face recognition) with a password fallback option.
-Developed as part of an internship application assignment to showcase skills in cross-platform mobile development and user authentication.
+<div align="center">
+🔐 Biometric-App
+A cross-platform Flutter mobile app for secure biometric login with password fallback
+Created as an application internship assignment.
 
-🚀 Demo
-Demo Video: Watch on Google Drive
-APK Download: Download APK
-All Resources & Screenshots: Google Drive Folder
+🌐 Demo Video • 📱 Download APK • 🗂️ All Resources
+
+</div>
 ✨ Features
-Biometric Authentication:
-Login using device fingerprint or face recognition (via Flutter local_auth package).
-Password Fallback:
-Login with a password if biometrics are unavailable.
-Clear User Feedback:
-Real-time messages for authentication status and errors.
-Modern UI:
-Clean, mobile-first Material Design interface.
-🖼️ Screenshots
-Login Successful
-
-🛠️ Getting Started
-Prerequisites:
-
-Flutter SDK
-Android Studio / VS Code / Xcode
-Device/emulator with biometric capability
-Installation:
-
+Biometric Authentication: Fingerprint or face unlock for quick and secure access.
+Password Fallback: Enter a password as an alternative login method.
+Feedback: Clear notifications for login success, failure, and errors.
+Modern UI: Simple, clean, and intuitive interface.
+📸 Screenshot
+<p align="center"> <img src="https://drive.google.com/uc?id=16L_Ske0Gd_zw1c6ejVsrGV3OzLUPIA4d" alt="Login Successful" width="300"/> </p>
+🚀 Quick Start
 bash
+# 1. Clone the repo
 git clone https://github.com/theshuklavaibhav/Biometric-App.git
+
+# 2. Install dependencies
 cd Biometric-App
 flutter pub get
+
+# 3. Run on a device/emulator
 flutter run
 Note:
 
-On iOS, set up permissions in Info.plist as described in local_auth.
-Default password for fallback login is 1234 (for demonstration only).
-📁 File Structure
-lib/main.dart – Main logic: biometric and password authentication
-pubspec.yaml – Dependencies
-📒 Technologies Used
+Use a device/emulator with fingerprint/face unlock.
+On iOS, configure permissions in Info.plist.
+The fallback password is 1234.
+🛠️ Tech Stack
 Flutter (Dart)
-local_auth package
+local_auth
 Material Design
-The repository includes additional code in C++, CMake, Swift, C, and HTML, as part of cross-platform or supporting modules.
+The repo also contains C++, CMake, Swift, C, and HTML as part of cross-platform support.
 
-🎯 Purpose
-This app demonstrates secure, user-friendly login for mobile applications by combining biometrics with a password fallback, following best practices in mobile security and user experience.
+🎥 Demo & Resources
+🌐 Demo Video (Google Drive)
+📱 Download APK
+🗂️ Screenshots & Source Files
+📑 About
+This app demonstrates a secure, user-friendly login system for mobile apps, combining biometrics and password fallback.
+Perfect for internship or job application assignments!
 
 👤 Author
 Vaibhav Shukla
 GitHub
 
-For more resources, screenshots, and the APK, visit the Google Drive Folder.
